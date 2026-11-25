@@ -1,0 +1,46 @@
+2025-08-01 17:59:53 UTC
+Windows-10-10.0.26100
+Ren'Py 8.2.1.24030407
+
+Early init took 0.23s
+Loading error handling took 0.15s
+170 script files skipped.
+Loading script took 1.90s
+Loading save slot metadata took 0.17s
+Loading persistent took 0.00s
+ - Init at game/01example.rpy:571 took 6.77459 s.
+Running init code took 7.19s
+Loading analysis data took 0.06s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Dump and make backups took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.05s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.32s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.11s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.16s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1650 with Max-Q Design/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 577.00'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1600, 900) drawable=(1600, 900)
+Maximum texture size: 4096x4096

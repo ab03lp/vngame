@@ -1,0 +1,29 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/editor.rpy", line 587, in <module>
+  File "game/editor.rpy", line 589, in _execute_python_hide
+AttributeError: module 'renpy.exports' has no attribute 'proxies'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "launcher/game/front_page.rpyc", line 246, in script call
+  File "launcher/game/editor.rpyc", line 587, in script
+  File "C:\Users\abels\OneDrive\문서\MiniPro\renpy-8.2.1-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\abels\OneDrive\문서\MiniPro\renpy-8.2.1-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/editor.rpy", line 587, in <module>
+  File "game/editor.rpy", line 589, in _execute_python_hide
+  File "C:\Users\abels\OneDrive\문서\MiniPro\renpy-8.2.1-sdk\renpy\game.py", line 293, in invoke_in_new_context
+    return callable(*args, **kwargs)
+  File "installer.py", line 477, in manifest
+  File "<string>", line 105, in <module>
+  File "<string>", line 29, in download
+AttributeError: module 'renpy.exports' has no attribute 'proxies'
+
+Windows-10-10.0.22631 AMD64
+Ren'Py 8.2.1.24030407
+Ren'Py Launcher 8.2.1.24030407
+Wed Oct 23 10:32:06 2024
